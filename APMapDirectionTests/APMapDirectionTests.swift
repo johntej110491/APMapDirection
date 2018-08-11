@@ -2,8 +2,8 @@
 //  APMapDirectionTests.swift
 //  APMapDirectionTests
 //
-//  Created by user on 04/08/18.
-//  Copyright © 2018 amitpatel.softech. All rights reserved.
+//  Created by Mac on 04/08/18.
+//  Copyright © 2018 Mac. All rights reserved.
 //
 
 import XCTest

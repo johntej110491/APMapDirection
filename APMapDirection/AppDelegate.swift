@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  APMapDirection
 //
-//  Created by user on 04/08/18.
-//  Copyright © 2018 amitpatel.softech. All rights reserved.
+//  Created by Mac on 04/08/18.
+//  Copyright © 2018 Mac. All rights reserved.
 //
 
 import UIKit
@@ -12,13 +12,12 @@ import GooglePlaces
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    var googleAPIKey = "AIzaSyAgCqa_LgVv8I7NvjMOFLvylkeogCtjCkY"//AP
 
     var window: UIWindow?
+    var googleAPIKey = "AIzaSyAgCqa_LgVv8I7NvjMOFLvylkeogCtjCkY"//AP
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         GMSServices.provideAPIKey(googleAPIKey)
         GMSPlacesClient.provideAPIKey(googleAPIKey)
         return true
